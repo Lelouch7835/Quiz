@@ -1,0 +1,45 @@
+.h1{
+    text-align: center;
+    
+}
+.elt1{
+    margin: 0 4px;
+}
+.reponse{
+    display: flex;
+    margin: 6px 5px;
+    .answer{
+        margin: 0 5px;
+        text-decoration: none;
+        
+    }
+}
+.print{
+    display: flex;
+    .affichage{
+        display: flex;
+        margin: 0 2px;
+        .pts{
+            display: flex;
+        }
+        .number{
+            margin: 0 2px;
+        }
+    }
+}
+
+
+.hide {
+    background: red;
+    transition: 5s ease-in-out;
+    display: none;
+}
+
+.goodAns {
+    color: green;
+}
+
+.wrongAns {
+    color: red;
+}
+
